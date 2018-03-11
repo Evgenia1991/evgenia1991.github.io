@@ -606,7 +606,7 @@ button::-moz-focus-inner {
 	position: absolute;
 	width: 10px;
 	height: 78px;
-	right: 50px;
+	right: 70px;
 	top: 100%;
 	background: -webkit-gradient(linear, left top, right top, from(#abbbbd), to(#c4d4d6));
 	background: -webkit-linear-gradient(left, #abbbbd 0%, #c4d4d6 100%);
@@ -618,7 +618,7 @@ button::-moz-focus-inner {
 	position: absolute;
 	width: 10px;
 	height: 78px;
-	left: 50px;
+	left: 70px;
 	top: 100%;
 	background: -webkit-gradient(linear, left top, right top, from(#abbbbd), to(#c4d4d6));
 	background: -webkit-linear-gradient(left, #abbbbd 0%, #c4d4d6 100%);
@@ -627,26 +627,29 @@ button::-moz-focus-inner {
 }
 .walk-banner__frame {
 	position: relative;
-	padding: 25px 30px;
+	padding: 38px 30px;
 	border: 5px solid #d3eff2;
 }
 .walk-banner__ttl {
 	font-size: 20px;
 	color: #626161;
 	font-weight: 100;
-	margin: 0 0 3px 0;
+	margin: 0 0 1px 17px;
 }
 .walk-banner__inform {
 	color: #464343;
 	font-size: 16px;
 	font-weight: 100;
-	margin: 0;
+	margin: 0 0 0 17px;
 }
 #walk_man {
 	position: absolute;
 	z-index: 100;
 	left: 0;
 	bottom: -52px;
+}
+.walkCenter__ban-txt {
+	margin: 0 0 0 17px;
 }
 .walk-banner__inform_blue {
 	font-size: 20px;
@@ -697,7 +700,7 @@ button::-moz-focus-inner {
 	font-size: 14px;
 }
 .footerColSm__ttl_pos {
-	margin-left: 102px;
+	margin-left: 88px;
 }
 .footer-col__link {
 	color: #fff;
@@ -715,7 +718,7 @@ button::-moz-focus-inner {
 .footer-col__txt {
 	font-weight: 100;
 	color: #fff;
-	margin: 7px 0 4px 102px;
+	margin: 7px 0 4px 88px;
 }
 .footer-col__txt_b {
 	font-weight: 600;
