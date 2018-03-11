@@ -133,7 +133,7 @@ button::-moz-focus-inner {
 	position: absolute;
 }
 .basic-menu {
-	height: 240px;
+	height: 230px;
 }
 .basic-menu__logo {
 	height: 100%;
@@ -141,7 +141,7 @@ button::-moz-focus-inner {
 	float: left;
 }
 .basic-menu__logo_img {
-	margin-top: 100px;
+	margin-top: 111px;
 	display: inline-block;
 }
 .basic-menu__navigation {
@@ -149,11 +149,17 @@ button::-moz-focus-inner {
 	width: 75%;
 	float: left;
 	margin-left: 19px;
-	margin-top: 90px;
+	margin-top: 101px;
 }
 /*второй уровень*/
 .basic-menu__itm_position {
-	margin-left: 60px!important;
+	margin-left: 71px!important;
+}
+.basic-menu__itm_pos-2 {
+	margin-left: 56px!important;
+}
+.basic-menu__itm_pos-3 {
+	margin-left: 46px!important;
 }
 /*поместить в другую папку и переопределить*/
 .basic-menu__list {
@@ -166,7 +172,7 @@ button::-moz-focus-inner {
 	text-align: center;
 	position: relative;
 	padding: 0;
-	margin: 0;
+	margin: 2px;
 }
 .basic-menu__itm:hover .basic-menu__link_circle {
 	background: #e23861;
@@ -327,8 +333,7 @@ button::-moz-focus-inner {
 }
 /*Mountain*/
 .mountain {
-	margin-top: 50px;
-	height: 450px;
+	height: 418px;
 	background: url(../imajes/rock.jpg) center bottom;
 	background-repeat: no-repeat;
 	position: relative;
@@ -349,8 +354,8 @@ button::-moz-focus-inner {
 	font-weight: 100;
 	color: #616161;
 	text-align: center;
-	margin-bottom: 21px;
-	padding-top: 40px;
+	margin-bottom: 15px;
+	padding-top: 14px;
 }
 .mountain-banner {
 	display: -webkit-box;
@@ -380,7 +385,7 @@ button::-moz-focus-inner {
 	width: 4px;
 	background: #d0d0d0;
 	top: 149px;
-	left: 234px;
+	left: 219px;
 }
 .mountain-banner__flag-2:after {
 	content: '';
@@ -404,6 +409,7 @@ button::-moz-focus-inner {
 }
 .mountain-banner__img-1 {
 	position: absolute;
+	left: -15px;
 	top: 48px;
 }
 .mountain-banner__img-2 {
@@ -420,7 +426,7 @@ button::-moz-focus-inner {
 	font-size: 18px;
 	color: #fff;
 	position: absolute;
-	left: 0;
+	left: -15px;
 	top: 100px;
 	width: 245px;
 	text-align: center;
@@ -450,7 +456,7 @@ button::-moz-focus-inner {
 	text-align: center;
 	width: 54px;
 	top: 46px;
-	left: 0;
+	left: -15px;
 	margin: 0;
 	padding: 6px 0 0 0;
 }
