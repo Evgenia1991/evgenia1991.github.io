@@ -493,13 +493,13 @@ button::-moz-focus-inner {
 	background: linear-gradient(to top, #21d0e2, #1bbad8);
 }
 .complete-form__field-fill {
-	padding: 50px;
+	padding: 44px;
 }
 .complete-form__table {
 	margin: auto;
 }
 .complete-form__col {
-	padding-bottom: 34px;
+	padding-bottom: 18px;
 	text-align: right;
 }
 /*перенести в другую папку, уровень переопраделния*/
