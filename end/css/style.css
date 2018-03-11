@@ -493,7 +493,7 @@ button::-moz-focus-inner {
 	background: linear-gradient(to top, #21d0e2, #1bbad8);
 }
 .complete-form__field-fill {
-	padding: 44px;
+	padding: 50px;
 }
 .complete-form__table {
 	margin: auto;
