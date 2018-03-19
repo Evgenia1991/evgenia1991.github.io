@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Geometria Regular';
+  src: url("../fonts/Geometria.ttf") format('truetype');
+  font-style: normal;
+}
+.body {
+  font-family: 'Geometria Regular';
+  background: #fff;
+  padding: 0;
+  margin: 0;
+}
+.center {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.banner {
+  height: 880px;
+  background: url("../img/intro-bg.jpg");
+}
+.header {
+  width: 100%;
+}
+.header__menu {
+  font-size: 14px;
+}
+.header__menu_list {
+  margin: 0;
+  padding: 25px 0 0 0;
+}
+.header__menu_point {
+  display: inline;
+}
+.header__menu_sm {
+  text-decoration: none;
+  color: #fff;
+  padding-bottom: 5px;
+}
+.header__menu_bg {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
